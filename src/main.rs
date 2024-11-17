@@ -22,7 +22,7 @@ fn main() {
     }
 
 
-    
+
      let p = 23;
      let g=5;
      let alice_pr_key = 17;
@@ -39,6 +39,7 @@ fn main() {
 
  println!("{}", bob_message_to_alice);
  println!("{}", alice_message_to_bob);
+ assert!(bob_message_to_alice==alice_message_to_bob);
 
     
 }
